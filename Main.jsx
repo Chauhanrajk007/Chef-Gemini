@@ -1,4 +1,4 @@
-export default Main(){
+export default function Main(){
 return (
   <main>
     <form>
