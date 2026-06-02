@@ -50,6 +50,5 @@ form>button{
 form>button::before{
   content: "+";
   margin-right: 8px;
-  width:150px;
 }
   
