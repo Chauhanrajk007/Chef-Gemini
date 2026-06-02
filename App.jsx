@@ -1,7 +1,7 @@
 import Header from "./Header"
 
-export default function App()
+export default function App(){
 return (
   <Header />
-  }
-)
+  )
+}
