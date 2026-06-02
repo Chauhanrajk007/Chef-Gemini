@@ -6,3 +6,5 @@ return (
       <button>Add ingredient</button>
     </form>
   </main>
+)
+}
