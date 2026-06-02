@@ -44,6 +44,8 @@ form>button{
   border-radius:6px;
   border:none;
   background-color:#141413;
+  padding-left:20px;
+  padding-right: 20px;
 }
 form>button::before{
   content: "+";
