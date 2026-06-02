@@ -5,6 +5,9 @@ body{
 header>img{
   width: 50px;
 }
+header>h1{
+  font-weight:400;
+}
 header{
   display:flex;
   align-items: center;
