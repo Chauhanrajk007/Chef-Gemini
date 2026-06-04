@@ -1,12 +1,13 @@
+import React from "react"
 export default function Main(){
-  const ingredients=[]
+  const [ingredients,setIngredients]=React.useState([])
   const ingredientsListItems = ingredients.map(ingrdients=>(<li key={ingredient}>{ingredient}</li>li>))
   function handleSubmit(event)
   {
     event.preventDefault()
     const formData=new FormData(event.currentTarget)
     const newIngredient=formData.get("ingredient")
-    ingredients.push(newIngredient)
+    setIngredients(ingredients=>{[...ingredients,newIngredient]})
   }
 return (
   <main>
