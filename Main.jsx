@@ -1,7 +1,7 @@
 import React from "react"
 export default function Main(){
   const [ingredients,setIngredients]=React.useState([])
-  const ingredientsListItems = ingredients.map(ingrdients=>(<li key={ingredient}>{ingredient}</li>))
+  const ingredientsListItems = ingredients.map(ingrdients=>(<li key={ingredients}>{ingredients}</li>))
   function handleSubmit(event)
   {
     event.preventDefault()
