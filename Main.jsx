@@ -16,7 +16,7 @@ return (
       <input  type="text" placeholder="e.g. oregano" aria-label="Add ingredient" name="ingredient"/>
       <button>Add ingredient</button>
     </form>
-    {if(ingredientsListItems.length>0)
+    {ingredientsListItems.length>0
     &&
     <section>
       <h2>Ingredients on hand:</h2>
