@@ -16,6 +16,8 @@ return (
       <input  type="text" placeholder="e.g. oregano" aria-label="Add ingredient" name="ingredient"/>
       <button>Add ingredient</button>
     </form>
+    if(ingredientsListItems!=[])
+    {
     <section>
       <h2>Ingredients on hand:</h2>
       <ul>
@@ -29,6 +31,7 @@ return (
           <button>Get a recipe</button>
        </div>
     </section>
+    }
   </main>
 )
 }
