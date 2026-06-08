@@ -23,13 +23,14 @@ return (
       <ul>
       {ingredientsListItems}
       </ul>
-      <div className="box">
+      {ingredientsListItems>3&&<div className="box">
           <div>
               <h3>Ready for a recipe</h3>
               <p>Generate a recipe from your list of ingredients</p>
           </div>
           <button>Get a recipe</button>
        </div>
+      }
     </section>
     }
     
