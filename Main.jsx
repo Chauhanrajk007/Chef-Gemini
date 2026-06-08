@@ -1,7 +1,7 @@
 import React from "react"
 export default function Main(){
   const [ingredients,setIngredients]=React.useState([])
-  const ingredientsListItems = ingredients.map(ingredients=>(<li key={ingredients}>{ingredients}</li>))
+  const ingredientsListItems = ingredients.map(ingredient=>(<li key={ingredient}>{ingredient}</li>))
   function addIngredient(formData)
   {
     const newIngredient=formData.get("ingredient")
