@@ -23,7 +23,9 @@ return (
       <ul>
       {ingredientsListItems}
       </ul>
-      {ingredientsListItems>3&&<div className="box">
+      {ingredientsListItems.length>3
+        &&
+        <div className="box">
           <div>
               <h3>Ready for a recipe</h3>
               <p>Generate a recipe from your list of ingredients</p>
