@@ -16,9 +16,19 @@ return (
       <input  type="text" placeholder="e.g. oregano" aria-label="Add ingredient" name="ingredient"/>
       <button>Add ingredient</button>
     </form>
-    <ul>
+    <section>
+      <h2>Ingredients on hand:</h2>
+      <ul>
       {ingredientsListItems}
-    </ul>
+      </ul>
+      <div className="box">
+          <div>
+              <h3>Ready for a recipe</h3>
+              <p>Generate a recipe from your list of ingredients</p>
+          </div>
+          <button>Get a recipe</button>
+       </div>
+    </section>
   </main>
 )
 }
