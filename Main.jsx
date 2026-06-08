@@ -17,7 +17,7 @@ return (
       <button>Add ingredient</button>
     </form>
     {if(ingredientsListItems.length>0)
-    {
+    &&
     <section>
       <h2>Ingredients on hand:</h2>
       <ul>
@@ -32,7 +32,7 @@ return (
        </div>
     </section>
     }
-    }
+    
   </main>
 )
 }
