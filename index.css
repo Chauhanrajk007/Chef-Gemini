@@ -51,4 +51,13 @@ form>button::before{
   content: "+";
   margin-right: 8px;
 }
-  
+
+.box{
+  display: flex;
+  background-color:#B3A7A4;
+}
+.box>buttoon{
+  background-color:#F57A38;
+  padding: 5px;
+  border:none;
+}
