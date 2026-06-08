@@ -56,7 +56,7 @@ form>button::before{
   display: flex;
   background-color:#EBE8E8;
   border-radius:5px;
-  padding:10px;
+  padding:30px;
   width:100%;
   align-items:center;
   justify-content:space-between;
